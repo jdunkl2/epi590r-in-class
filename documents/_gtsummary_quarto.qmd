@@ -119,9 +119,7 @@ table1 <- tbl_summary(
 	missing_text = "Missing"
 
  ,
-
-	statistic = list(sleep_wknd ~ "{median}") ,
-	digits = list(sleep_wknd ~ c(2))) |> 
+)|> 
   add_overall(last = TRUE)
 table1
 
